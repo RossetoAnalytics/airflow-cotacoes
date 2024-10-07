@@ -1,4 +1,4 @@
-Visão Geral do Projeto
+### Visão Geral do Projeto
 
 Este projeto foi desenvolvido para demonstrar a criação e implementação de uma Directed Acyclic Graph (DAG) utilizando Apache Airflow. O foco foi a ingestão e transformação de dados do Banco Central do Brasil relacionados à cotação de moedas, com o objetivo de automatizar o download e o processamento desses dados a partir de um arquivo CSV disponível em um endpoint público.
 
