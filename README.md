@@ -1,6 +1,6 @@
 # Visão Geral do Projeto
 
-Este projeto foi desenvolvido para demonstrar a criação e implementação de uma Directed Acyclic Graph (DAG) utilizando Apache Airflow. O foco foi a ingestão e transformação de dados do Banco Central do Brasil relacionados à cotação de moedas, com o objetivo de automatizar o download e o processamento desses dados a partir de um arquivo CSV disponível em um endpoint público.
+Este projeto foi desenvolvido para demonstrar a criação e implementação de uma DAG utilizando Apache Airflow. O foco foi a ingestão e transformação de dados do Banco Central do Brasil relacionados à cotação de moedas, com o objetivo de automatizar o download e o processamento desses dados a partir de um arquivo CSV disponível em um endpoint público.
 
 [endpoint público](https://www.bcb.gov.br/estabilidadefinanceira/cotacoestodas)
 
@@ -19,7 +19,7 @@ Este projeto foi desenvolvido para demonstrar a criação e implementação de u
 
 ### Tecnologias Utilizadas
 
-- Apache Airflow: Para orquestração de tarefas e agendamento de fluxos de trabalho.
+- Apache Airflow: Para orquestração de tarefas, definição de conexões e agendamento de fluxos de trabalho.
 - PostgreSQL: Como banco de dados local para armazenamento das cotações de moedas.
 - Docker: Utilizado para isolar o ambiente de desenvolvimento, garantindo consistência na execução do projeto.
 - Astro CLI e SDK: Facilitando a configuração e o gerenciamento do ambiente virtual dentro de um container Docker.
